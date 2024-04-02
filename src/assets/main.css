@@ -1,0 +1,35 @@
+@import '/node_modules/flowbite-vue/dist/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    transition: all ease .2s;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.featicon {
+    width: 60px;
+    height: 60px;
+}
+
+.centerbox {
+    margin: 0 auto;
+}
+
+.borderbox {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.borderboxleft {
+    margin: 20px 0 !important;
+}
