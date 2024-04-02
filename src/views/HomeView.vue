@@ -24,7 +24,7 @@ import JoinServer from '@/components/JoinServer.vue'
         </p>
       </div>
       <div class="w-full lg:w-1/2 mt-8 lg:mt-0 hidden lg:block">
-        <img src="https://raw.githubusercontent.com/archcraft-os/misc-files/main/flavors/xfce/themes/theme_1.png" />
+        <img src="/assets/img/xfce.png" />
       </div>
     </div>
 
