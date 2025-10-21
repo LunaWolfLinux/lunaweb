@@ -4,7 +4,7 @@
       <h1 class="text-4xl font-bold text-center">Download LunaWolf Linux</h1>
       <div class="borderbox"></div>
       <div class="mt-10">
-        <img src="/assets/img/overview.png" class="max-w-4xl w-full centerbox" />
+        <img src="/assets/img/new_overview.png" class="max-w-4xl w-full centerbox" />
         <h3 class="text-lg text-center centerbox pt-5">You can download LunaWolf from either <b>Google Drive</b>, <b>Mega Cloud</b> or <b>our Servers</b>.</h3>
         <div class="text-center mt-5 mb-10">
           <a href="#mirrors" type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Download Mirrors</a>
@@ -12,9 +12,20 @@
         </div>
 
         <div class="border-l-4 border-gray-700 pl-10 max-w-4xl w-full centerbox">
-          <p class="italic">Latest Release: <code class="bg-gray-800 p-1.5 rounded">lunawolf-2024.07.19-x86_64.iso</code></p>
+          <p class="italic font-bold">The No Place Like Gnome Update</p>
+          <p class="italic">Latest Release: <code class="bg-gray-800 p-1.5 rounded">lunawolf-2025.10.21-x86_64.iso</code></p>
           <p class="italic">The live username and password is: <b>liveuser</b></p>
-          <p class="italic">LunaWolf is only available for 64-bit architectures. There is no 32-bit, ARM or WSL image available. This might change in the future</p>
+          <p class="italic">LunaWolf is only available for 64-bit architectures. There are no 32-bit, ARM or WSL image available. This might change in the future</p>
+        </div>
+
+        <div class="max-w-4xl w-full centerbox pt-10">
+          <h1 class="font-bold text-xl mb-2">System Requirements:</h1>
+          <ul>
+            <li>Ram: At least 1GB</li>
+            <li>Storage: At least 10GB</li>
+            <li>GPU: Any. Tested with Intel HD and Nvidia, but any should work</li>
+            <li>Internet: Not required initial for installation</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -27,17 +38,17 @@
        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl w-full centerbox">
          <div class="text-center">
            <img src="/assets/icons/mega-icon.svg" class="centerbox" style="width: 100px; height: 100px;" alt="mega" />
-           <a href="https://mega.nz/file/1hZBCLiA#cwWkoH3s3IOhwVGDVqyvn4tD-e5uOroMJyrExXR_tuA" target="_blank" class="inline-block mt-5 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Download from Mega Cloud</a>
+           <a href="https://mega.nz/file/E1BTga5K#nmsRURpohw_uMkogGvjCgLuBmS_GI1nK26JdBX7Tu4c" target="_blank" class="inline-block mt-5 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Download from Mega Cloud</a>
          </div>
 
          <div class="text-center">
            <img src="/assets/icons/google-drive.svg" class="centerbox" style="width: 100px; height: 100px;" alt="mega" />
-           <a href="https://drive.google.com/file/d/1e4tNZ9hQox1wY-e4C_ITcwF3yjmfkiT_/view?usp=sharing" target="_blank" class="mt-5 inline-block text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Download from Google Drive</a>
+           <a href="https://drive.google.com/file/d/1vXi67RxaD1qW8xw5OVnMPOorHGS_J1rt/view?usp=sharing" target="_blank" class="mt-5 inline-block text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Download from Google Drive</a>
          </div>
 
          <div class="text-center">
            <img src="https://cdn.firstdark.dev/discord/fdd_new_icon.png" class="centerbox" style="width: 100px; height: 100px;" alt="mega" />
-           <a href="https://cdn.firstdark.dev/lunawolf/lunawolf-2024.07.19-x86_64.iso" target="_blank" class="inline-block mt-5 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Download from FDD (Direct)</a>
+           <a href="https://lunawolf.ams3.cdn.digitaloceanspaces.com/iso/lunawolf-2025.10.21-x86_64.iso" target="_blank" class="inline-block mt-5 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Direct Download</a>
          </div>
        </div>
      </div>

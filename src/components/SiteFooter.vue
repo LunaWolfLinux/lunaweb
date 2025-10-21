@@ -16,12 +16,12 @@
             <a href="https://github.com/LunaWolfLinux/lunawolf/issues" target="_blank" class="hover:underline me-4 md:me-6">Bugs</a>
           </li>
           <li>
-            <a href="https://discord.lunawolf.cc" target="_blank" class="hover:underline me-4 md:me-6">Discord</a>
+            <a href="https://discord.firstdark.dev" target="_blank" class="hover:underline me-4 md:me-6">Discord</a>
           </li>
         </ul>
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://firstdark.dev" target="_blank" class="hover:underline">First Dark Development</a>. Licensed under GPL-3.0.</span>
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 - {{new Date().getFullYear()}} <a href="https://firstdark.dev" target="_blank" class="hover:underline">First Dark Development</a>. Licensed under GPL-3.0.</span>
     </div>
   </footer>
 </template>

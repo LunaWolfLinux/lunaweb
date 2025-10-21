@@ -15,7 +15,9 @@ import JoinServer from '@/components/JoinServer.vue'
         <br />
         <p>
           LunaWolf Linux is a lightweight, super minimal Linux Distro, built on top of Arch Linux.
-          It provides only the bare minimum for the OS to run, with XFCE and SDDM for the desktop environment.
+          It provides only the bare minimum for the OS to run, with Gnome for the desktop environment.
+          <br /><br />
+          We do include some goodies like AUR and Flatpak support, through the gnome software center
           <br /><br />
           We believe that your OS, should be your choice, so we don't include any pre-installed crap like LibreOffice, VSCode or anything else. We only provide you
           with a web browser, file manager, terminal, some system utilities and a text editor or two. The rest, is yours to choose, install and configure.
@@ -24,7 +26,7 @@ import JoinServer from '@/components/JoinServer.vue'
         </p>
       </div>
       <div class="w-full lg:w-1/2 mt-8 lg:mt-0 hidden lg:block">
-        <img src="/assets/img/xfce.png" />
+        <img src="/assets/img/gnome.png" />
       </div>
     </div>
 
@@ -43,15 +45,15 @@ import JoinServer from '@/components/JoinServer.vue'
         ></FeatureCard>
 
         <FeatureCard
-          title="No Fancy Themes"
+          title="Some Fancy Themes"
           icon="assets/icons/theme.svg"
-          description="This OS is like my soul. Dark, dreary and colorless. Well, there are some colors, but don't expect it to look like neon city"
+          description="This OS is like my soul. Dark, dreary and colorless. It includes Catppuccin and Neon icons. That's all"
         ></FeatureCard>
 
         <FeatureCard
           title="Powerful"
           icon="assets/icons/strong.svg"
-          description="With a rolling release, you can always be up to date with the latest and greatest. Did we mention built in AUR support?"
+          description="With a rolling release, you can always be up to date with the latest and greatest. Did we mention built in AUR and Flatpak support?"
         ></FeatureCard>
 
         <FeatureCard
@@ -69,7 +71,7 @@ import JoinServer from '@/components/JoinServer.vue'
         <FeatureCard
           title="Potato PC Friendly"
           icon="assets/icons/potato.svg"
-          description="Did we mention it's lightweight? We did? Good. Now, to answer the question... Can it run Crysis?"
+          description="Did we mention it's lightweight? We did? Good. Now, to answer the question... Can it run Crysis? (Yes. Yes it can)"
         ></FeatureCard>
       </div>
     </div>
