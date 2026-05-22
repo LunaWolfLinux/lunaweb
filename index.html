@@ -1,21 +1,37 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LunaWolf Linux - The OS You DON'T need</title>
-    <meta property="og:title" content="LunaWolf Linux - The OS you don't need" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lunawolf.cc" />
-    <meta property="og:image" content="/assets/img/xfce.png" />
+<!doctype html>
+<html lang="en">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
-  <body class='bg-ct-light-primary dark:bg-ct-dark-primary dark'>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <title>LunaWolf Linux - The OS You DON'T need</title>
+  <meta property="og:title" content="LunaWolf Linux - The OS you don't need" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lunawolf.cc" />
+  <meta property="og:image" content="/assets/img/xfce.png" />
+  <style>html { background-color: #ffffff } html.dark { background-color: #18181b }</style>
+  <script>
+    (function () {
+      var mode = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      var dark = mode === 'dark' || (mode === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      if (dark) {
+        document.documentElement.classList.add('dark')
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18181b')
+      }
+    })()
+  </script>
+</head>
+
+<body>
+  <div id="app" class="isolate"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
